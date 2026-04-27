@@ -2,6 +2,7 @@
 
 import { ExternalLink, Github, Folder } from "lucide-react"
 import Link from "next/link"
+import { title } from "process"
 
 const featuredProjects = [
   {
@@ -27,11 +28,11 @@ const featuredProjects = [
 const otherProjects = [
   {
     title: "LeadFlow CRM",
-<<<<<<< HEAD
+
     description: "Application built for keeping track of leads, using MySQL to store these leads.",
     technologies: ["React", "MySQL", "Database Design"],
     github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_02",
-    live: "https://github.com/VoidMeBro/ENGR-422-Project",
+    live: "#",
   },
   {
     title: "MustardSeed Studio",
@@ -39,38 +40,7 @@ const otherProjects = [
     technologies: ["React", "CSS"],
     github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_03",
     live: "https://future-fs-03-lake-chi.vercel.app",
-=======
-    description: "Enterprise-level database solution using T-SQL and SQL Server with optimized queries and stored procedures.",
-    technologies: ["T-SQL", "SQL Server", "Database Design"],
-    github: "#",
-    live: null,
   },
-  {
-    title: "MustardSeed Studio",
-    description: "Oracle Cloud Infrastructure deployment with Kubernetes orchestration and CI/CD pipeline implementation.",
-    technologies: ["OCI", "Kubernetes", "CI/CD", "Docker"],
-    github: "#",
-    live: null,
-<<<<<<< HEAD
-  },
-  {
-    title: ".NET Core API",
-    description: "RESTful API built with .NET Core featuring authentication, authorization, and comprehensive documentation.",
-    technologies: ["C#", ".NET Core", "REST API", "JWT"],
-    github: "#",
-    live: null,
-  },
-  {
-    title: "React Dashboard",
-    description: "Interactive data visualization dashboard with real-time updates and responsive design for business analytics.",
-    technologies: ["React", "JavaScript", "Charts", "CSS3"],
-    github: "#",
-    live: null,
->>>>>>> 5988f64 (Add contact form API route with email integration)
-  },
-=======
- },
->>>>>>> 851a395 (Fix contact form integration and update API route)
 ]
 
 export function ProjectsSection() {
@@ -82,6 +52,7 @@ export function ProjectsSection() {
           <div className="lg:col-span-1">
             <div className="sticky top-24">
               <h2 className="text-sm font-mono text-primary uppercase tracking-wider mb-2">
+                
                 Projects
               </h2>
               <p className="text-2xl font-semibold text-foreground">
