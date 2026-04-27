@@ -9,7 +9,7 @@ const featuredProjects = [
     description:
       "IoT-based educational tool developed in collaboration with Pennsylvania State University engineering students. Designed to introduce South African primary school students to STEM concepts through hands-on automated farming technology.",
     technologies: ["IoT", "Python", "Raspberry Pi", "Sensors"],
-    github: "#",
+    github: "https://github.com/VoidMeBro/ENGR-422-Project",
     live: "#",
     image: null,
   },
@@ -30,7 +30,7 @@ const otherProjects = [
     description: "Application built for keeping track of leads, using MySQL to store these leads.",
     technologies: ["React", "MySQL", "Database Design"],
     github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_02",
-    live: null,
+    live: "https://github.com/VoidMeBro/ENGR-422-Project",
   },
   {
     title: "MustardSeed Studio",
