@@ -18,8 +18,8 @@ const featuredProjects = [
     description:
       "A modern, responsive portfolio website built with Next.js and React. Features smooth animations, dark theme, and optimized performance. Showcases full-stack development capabilities and professional presentation.",
     technologies: ["Next.js", "React", "Tailwind CSS", "TypeScript"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_01",
+    live: "https://future-fs-01-rust.vercel.app",
     image: null,
   },
 ]
@@ -37,7 +37,7 @@ const otherProjects = [
     description: "Website for photography business for booking and information gathering",
     technologies: ["React", "CSS"],
     github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_03",
-    live: null,
+    live: "https://future-fs-03-lake-chi.vercel.app",
   },
 ]
 
