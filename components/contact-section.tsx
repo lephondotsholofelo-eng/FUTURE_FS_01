@@ -17,7 +17,13 @@ export function ContactSection() {
     e.preventDefault()
     setIsSubmitting(true)
     
+<<<<<<< HEAD
    try {
+=======
+    const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault()
+
+>>>>>>> 851a395 (Fix contact form integration and update API route)
   const res = await fetch("/api/contact", {
     method: "POST",
     headers: {
@@ -26,6 +32,7 @@ export function ContactSection() {
     body: JSON.stringify(formData),
   })
 
+<<<<<<< HEAD
   if (!res.ok) throw new Error("Failed")
 
   setSubmitted(true)
@@ -36,6 +43,15 @@ export function ContactSection() {
   alert("Something went wrong. Try again.")
 } finally {
   setIsSubmitting(false)
+=======
+  const data = await res.json()
+
+  if (data.success) {
+    alert("Message sent!")
+  } else {
+    alert("Something went wrong")
+  }
+>>>>>>> 851a395 (Fix contact form integration and update API route)
 }
     // Reset success message after 5 seconds
     setTimeout(() => setSubmitted(false), 5000)

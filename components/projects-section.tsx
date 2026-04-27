@@ -51,6 +51,7 @@ const otherProjects = [
     technologies: ["OCI", "Kubernetes", "CI/CD", "Docker"],
     github: "#",
     live: null,
+<<<<<<< HEAD
   },
   {
     title: ".NET Core API",
@@ -67,6 +68,9 @@ const otherProjects = [
     live: null,
 >>>>>>> 5988f64 (Add contact form API route with email integration)
   },
+=======
+ },
+>>>>>>> 851a395 (Fix contact form integration and update API route)
 ]
 
 export function ProjectsSection() {
