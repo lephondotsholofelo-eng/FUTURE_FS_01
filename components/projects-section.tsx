@@ -26,30 +26,16 @@ const featuredProjects = [
 
 const otherProjects = [
   {
-    title: "Database Management System",
+    title: "LeadFlow CRM",
     description: "Enterprise-level database solution using T-SQL and SQL Server with optimized queries and stored procedures.",
     technologies: ["T-SQL", "SQL Server", "Database Design"],
     github: "#",
     live: null,
   },
   {
-    title: "Cloud Infrastructure Setup",
+    title: "MustardSeed Studio",
     description: "Oracle Cloud Infrastructure deployment with Kubernetes orchestration and CI/CD pipeline implementation.",
     technologies: ["OCI", "Kubernetes", "CI/CD", "Docker"],
-    github: "#",
-    live: null,
-  },
-  {
-    title: ".NET Core API",
-    description: "RESTful API built with .NET Core featuring authentication, authorization, and comprehensive documentation.",
-    technologies: ["C#", ".NET Core", "REST API", "JWT"],
-    github: "#",
-    live: null,
-  },
-  {
-    title: "React Dashboard",
-    description: "Interactive data visualization dashboard with real-time updates and responsive design for business analytics.",
-    technologies: ["React", "JavaScript", "Charts", "CSS3"],
     github: "#",
     live: null,
   },
