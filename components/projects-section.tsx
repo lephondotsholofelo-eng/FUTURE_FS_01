@@ -27,16 +27,16 @@ const featuredProjects = [
 const otherProjects = [
   {
     title: "LeadFlow CRM",
-    description: "Enterprise-level database solution using T-SQL and SQL Server with optimized queries and stored procedures.",
-    technologies: ["T-SQL", "SQL Server", "Database Design"],
-    github: "#",
+    description: "Application built for keeping track of leads, using MySQL to store these leads.",
+    technologies: ["React", "MySQL", "Database Design"],
+    github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_02",
     live: null,
   },
   {
     title: "MustardSeed Studio",
-    description: "Oracle Cloud Infrastructure deployment with Kubernetes orchestration and CI/CD pipeline implementation.",
-    technologies: ["OCI", "Kubernetes", "CI/CD", "Docker"],
-    github: "#",
+    description: "Website for photography business for booking and information gathering",
+    technologies: ["React", "CSS"],
+    github: "https://github.com/lephondotsholofelo-eng/FUTURE_FS_03",
     live: null,
   },
 ]
