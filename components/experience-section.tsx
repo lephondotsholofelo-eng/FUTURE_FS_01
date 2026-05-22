@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const experiences = [
   {
-    period: "April 2026 — Present",
+    period: "April 2026 — May 2026",
     title: "Full-Stack Web Development Intern",
     company: "Future Interns",
     description:
